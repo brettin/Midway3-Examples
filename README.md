@@ -1,6 +1,7 @@
-## A work in progress.
 
 # Midway3-Examples
+
+## A work in progress.
 
 To get an interactive session:
 ```
