@@ -3,7 +3,9 @@
 To get an interactive session:
 ```
 salloc --nodes=1 --ntasks=1 --time=01:00:00 --partition=amd --account pi-rstevens
-
+```
+To get an interactive session with 10 nodes:
+```
 salloc --nodes=10 --ntasks-per-node=1 --time=01:00:00 --partition=amd --account pi-rstevens
 
 ```
