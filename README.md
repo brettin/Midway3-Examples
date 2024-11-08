@@ -2,11 +2,11 @@
 
 To get an interactive session:
 ```
-salloc --nodes=1 --ntasks=1 --time=01:00:00 --partition=amd --account pi-rstevens
+salloc --nodes=1 --time=01:00:00 --partition=amd --account pi-rstevens
 ```
 To get an interactive session with 10 nodes:
 ```
-salloc --nodes=10 --ntasks-per-node=1 --time=01:00:00 --partition=amd --account pi-rstevens
+salloc --nodes=10 --time=01:00:00 --partition=amd --account pi-rstevens
 
 ```
 module load mpich
@@ -23,3 +23,5 @@ midway3-0521.rcc.local
 midway3-0523.rcc.local
 midway3-0518.rcc.local
 ```
+
+```salloc --nodes=10 --time=01:00:00 --partition=amd --account pi-rstevens
