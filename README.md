@@ -24,4 +24,8 @@ midway3-0523.rcc.local
 midway3-0518.rcc.local
 ```
 
-```salloc --nodes=10 --time=01:00:00 --partition=amd --account pi-rstevens
+```
+salloc --nodes=10 --time=01:00:00 --partition=amd --account pi-rstevens
+srun -n 10 hostname
+srun -n 10  python ./test.py
+
